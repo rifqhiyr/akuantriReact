@@ -1,0 +1,39 @@
+@import "../scss/Variable.scss";
+
+.container {
+  .service-box {
+    margin: 5rem 0;
+
+    .row {
+      .service-title {
+        margin: 2rem 0;
+        .service-title--h2 {
+        }
+        .service-title--p {
+          font-size: 1.3rem;
+          color: $color-p;
+          margin: 0 0 1rem;
+        }
+      }
+      .service-left {
+        margin: 2rem 0;
+        display: flex;
+        .service-fa {
+          padding: 0.3rem;
+          color: $color-check;
+          font-size: 2.5rem;
+        }
+        .service-left-text {
+          margin-left: 1rem;
+          display: flex;
+          flex-direction: column;
+          .service-left--p {
+            font-size: 1rem;
+            color: $color-p;
+            margin: 0 0 1rem;
+          }
+        }
+      }
+    }
+  }
+}

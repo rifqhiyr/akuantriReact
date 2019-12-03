@@ -1,0 +1,47 @@
+@import "./Variable";
+
+.container {
+  .footer-box {
+    margin: 2rem 0;
+    padding: 3rem 0;
+    .row {
+      .footer-h3 {
+        margin: 0 0 1rem;
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+      p {
+        color: $color-p;
+      }
+      .footer-ul {
+        text-decoration: none;
+        padding: 0;
+        .footer-li {
+          list-style: none;
+          color: $color-check;
+          font-size: 1rem;
+          cursor: pointer;
+        }
+      }
+      .footer-img {
+        width: 12rem;
+      }
+    }
+    .footer-bottom {
+      margin: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      .footer-little {
+        font-size: 0.8rem;
+        font-weight: 300;
+      }
+      .footer-sosmed {
+        .footer-sosmed-item {
+          margin: 0 0.4rem;
+          color: $color-check;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

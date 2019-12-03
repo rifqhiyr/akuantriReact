@@ -1,0 +1,15 @@
+@import "./Variable";
+
+.container {
+  .about-content {
+    padding: 4rem 0;
+    .about-content-text {
+      padding: 1rem;
+      color: $color-p;
+      font-size: 1rem;
+      .about-content--span {
+        font-weight: 600;
+      }
+    }
+  }
+}

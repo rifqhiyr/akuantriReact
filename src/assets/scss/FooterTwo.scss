@@ -1,0 +1,48 @@
+@import "./Variable";
+
+.site-footer {
+  .bottom-footer {
+    padding: 1.5rem 0;
+    background-color: #262626;
+    .blog-wrapper {
+      text-align: center;
+      color: #aaaaaa;
+      margin: 0 1rem;
+      .footer-copyright {
+        font-size: 0.8rem;
+        .link {
+          text-decoration: none;
+          color: #aaaaaa;
+          margin: 0 0.2rem;
+          &:hover {
+            color: #06c286;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .site-footer {
+    .bottom-footer {
+      padding: 1.5rem 0;
+      background-color: #262626;
+      .blog-wrapper {
+        text-align: center;
+        color: #aaaaaa;
+        .footer-copyright {
+          font-size: 0.8rem;
+          .link {
+            text-decoration: none;
+            color: #aaaaaa;
+            margin: 0 0.2rem;
+            &:hover {
+              color: #06c286;
+            }
+          }
+        }
+      }
+    }
+  }
+}

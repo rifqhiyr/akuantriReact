@@ -1,0 +1,27 @@
+.jumbo-box {
+  background-size: cover;
+  background-image: url("../images/bg-akuantri-home1.jpg"),
+    linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .jumbotron {
+    background-color: unset;
+    .container {
+      .jumbo {
+        text-align: center;
+        margin: 14rem 0;
+        padding: 3rem;
+
+        .jumbo-btn {
+          .btn-img {
+            margin: 0 1rem;
+            padding: 1rem 0;
+            width: 10rem;
+          }
+        }
+      }
+    }
+  }
+}

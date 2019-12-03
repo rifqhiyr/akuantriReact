@@ -1,0 +1,29 @@
+@import "./Variable";
+
+.container {
+  .testi-box {
+    margin: 5rem 0;
+    padding: 2rem 0;
+    .testi-title {
+      text-align: center;
+      margin: 2rem 0;
+      .testi-title--h2 {
+        margin: 1rem 0;
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+      .testi-title--h4 {
+        padding: 2rem 0;
+        font-weight: 400;
+        font-size: 1.3rem;
+      }
+    }
+    .row {
+      .testi-img {
+        height: 355px;
+        width: 366px;
+        margin: 2rem 0;
+      }
+    }
+  }
+}

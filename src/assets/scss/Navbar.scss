@@ -1,0 +1,40 @@
+@import "./Variable";
+
+.nav-box {
+  position: sticky;
+  background-color: $color-navbar;
+  z-index: 100;
+  top: 0;
+  .navigasi {
+    padding: 0 0 0.3rem;
+    .brand-img {
+      width: 10rem;
+    }
+    .navbar-li {
+      margin: 0 0.1rem;
+      text-transform: uppercase;
+      .nav-link {
+        color: black;
+        font-size: 0.9rem;
+        font-weight: 400;
+        &:hover {
+          color: $color-check;
+          transition: ease-in 0.2s;
+        }
+      }
+    }
+    .btn-header {
+      background-color: $color-check;
+      width: 8rem;
+      height: 2.1rem;
+      color: white;
+      padding: 0.25rem 1.25rem;
+      cursor: pointer;
+      &:hover {
+        color: $color-check;
+        background-color: white;
+        border: 1px solid $color-check;
+      }
+    }
+  }
+}

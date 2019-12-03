@@ -1,0 +1,61 @@
+@import "./Variable";
+
+.header {
+  .header-wrapper {
+    border-bottom: 1px solid #06c286;
+    .blog-header-box {
+      margin: 0 16rem;
+      padding: 0 1rem;
+      .blog-sosmed {
+        display: flex;
+        justify-content: flex-end;
+
+        .blog-sosmed-item {
+          padding: 0 0.5rem;
+          .fa {
+            padding: 1rem 0.3rem;
+          }
+        }
+        .blog-search {
+          border-left: 1px solid $color-p;
+          border-right: 1px solid $color-p;
+        }
+      }
+    }
+  }
+  .blog-logo {
+    margin: 0 0.5rem;
+    padding: 2rem 0 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    .header-wrapper {
+      border-bottom: 1px solid #06c286;
+      .blog-header-box {
+        margin: 0 30rem;
+        padding: 0 1rem;
+        .blog-sosmed {
+          display: flex;
+          justify-content: flex-end;
+
+          .blog-sosmed-item {
+            padding: 0 0.5rem;
+            .fa {
+              padding: 1rem 0.3rem;
+            }
+          }
+          .blog-search {
+            border-left: 1px solid $color-p;
+            border-right: 1px solid $color-p;
+          }
+        }
+      }
+    }
+    .blog-logo {
+      margin: 0 30rem;
+      padding: 2rem 0 2.5rem;
+    }
+  }
+}

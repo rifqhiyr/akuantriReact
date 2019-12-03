@@ -1,0 +1,104 @@
+@import "./Variable";
+
+.article {
+  margin: 0 1rem;
+  .article-wrapper {
+    margin: 0 0.2rem 4.5rem;
+    .article-content {
+      .article-header {
+        margin: 0 0 1.5rem;
+        padding: 0 0 1.5rem;
+        .article-h2 {
+          font-size: 1.4rem;
+        }
+        .meta-wrapper {
+          display: flex;
+          flex-direction: column;
+          .article-meta {
+            margin: 0 1.5rem 0 0;
+            color: #7777;
+            .category {
+              margin: 0 0.5rem;
+              font-size: 0.9rem;
+            }
+            .category-link {
+              text-decoration: none;
+              color: #7777;
+              font-size: 0.9rem;
+              &:hover {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+      .article-footer {
+        margin: 2.5rem 0 0;
+        .footer-btn {
+          border: 2px solid #06c286;
+          border-radius: 1.5rem;
+          padding: 0.6rem 2.1rem;
+          color: #ffff;
+          background: #06c286;
+          text-transform: uppercase;
+          font-weight: 600;
+          &:hover {
+            color: #06c286;
+            background: #ffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .article {
+    margin: 0 30rem;
+    .article-wrapper {
+      margin: 0 6rem 7.5rem;
+      .article-content {
+        .article-header {
+          margin: 0 0 1.5rem;
+          padding: 0 0 1.5rem;
+          .article-h2 {
+            font-size: 1.9 rem;
+          }
+          .meta-wrapper {
+            display: flex;
+            flex-direction: row;
+            .article-meta {
+              margin: 0 1.5rem 0 0;
+              color: #7777;
+              .category {
+                margin: 0 0.5rem;
+                font-size: 0.9rem;
+              }
+              .category-link {
+                text-decoration: none;
+                color: #7777;
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+        .article-footer {
+          margin: 2.5rem 0 0;
+          .footer-btn {
+            border: 2px solid #06c286;
+            border-radius: 1.5rem;
+            padding: 0.6rem 2.1rem;
+            color: #ffff;
+            background: #06c286;
+            text-transform: uppercase;
+            font-weight: 600;
+            &:hover {
+              color: #06c286;
+              background: #ffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "./Variable";
+
+.jumbotrontwo-wrapper {
+  background-image: url("../images/bg-akuantri-home1.jpg");
+  .container {
+    background-image: unset;
+    .text-wrapper {
+      padding: 8rem 0;
+      color: white;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 300;
+    }
+  }
+}
